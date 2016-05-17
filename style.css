@@ -1,0 +1,136 @@
+/*
+Theme Name: Concerned
+Author: Toggle Corp.
+Description: A theme for Women's Concern
+Version: 1.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: concerned
+*/
+
+
+@import url('bootstrap/css/bootstrap.min.css');
+
+html, body{
+    height: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: 'Lato Light', 'Ubuntu', sans-serif;
+}
+
+a, a:hover, a:visited, a:active, a:link{
+    text-decoration: none;
+    outline: none;
+}
+
+.fa{
+    margin-right: 15px;
+}
+.fa-check{
+    color: #e09680;
+}
+
+hr{
+    margin: 50px 5px;
+}
+
+.section{
+    padding: 24px;
+    line-height: 2;
+}
+.section{
+    height: 100%;
+    font-size: 1.5em;
+    display: flex;
+    align-items: center;
+}
+.section .title{
+    font-size: 2.5em;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    margin-bottom: 50px;
+    color: #e09680;
+}
+#header-menu{
+    text-align: right;
+    padding-top: 20px;
+}
+#header-menu a{
+    padding: 0px 20px;
+    font-size: 1.5em;
+    color: #f0f0f0;
+}
+#header-menu a:hover{
+    color: #fff;
+}
+#header-section .site-info{
+    text-align: center;
+    padding-top: 100px;
+    padding-bottom: 10px;
+
+}
+#header-section .title{
+    width: 80%;
+}
+#slogan{
+    padding: 24px;
+    font-size: 2em;
+    text-transform: uppercase;
+    letter-spacing: 0.2em;
+    text-align: center;
+    color: #ff9680;
+}
+
+.service-header{
+    font-size: 1.5em;
+    margin-bottom: 20px;
+}
+#services-section{
+    background-color: #f5f5f5;
+    font-size: 1.2em;
+}
+#members-section{
+
+}
+.member{
+    text-align: center;
+
+    font-size: 0.9em;
+}
+.member img{
+    width: 100%;
+    margin-bottom: 16px;
+    padding: 24px;
+}
+.member .extra{
+    font-size: 0.8em;
+    color: #717171;
+}
+
+#footer-section{
+    display: block;
+    position: relative;
+}
+#footer-section .container{
+    margin-top: 10%;
+}
+#footer-menu a{
+    display: block;
+}
+#footer-section a{
+    color: #f0f0f0;
+}
+
+#footer-section a:hover{
+    color: #fff;
+}
+
+#footer-wrapper{
+    position: absolute;
+    bottom: 0;
+    font-size: 0.8em;
+}
