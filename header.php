@@ -38,10 +38,10 @@
 </head>
 
 <body >
-    <div id="header-section">
+    <div id="header-section" class="scroll-section">
         <div id="header-menu">
-            <a href="http://locus.ioe.edu.np/leblog/" class="menu-item">Blog</a>
-            <a href="http://locus.ioe.edu.np/legallery/" class="menu-item">Gallery</a>
+            <a href="#" class="menu-item">Blog</a>
+            <a href="#" class="menu-item">Gallery</a>
             <a href="#about-section" class="menu-item">About</a>
             <a href="#services-section" class="menu-item">Services</a>
             <a href="#members-section" class="menu-item">Members</a>

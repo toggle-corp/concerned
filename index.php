@@ -1,5 +1,5 @@
 <?php get_header(); ?>
-    <div id="about-section" class="section ">
+    <div id="about-section" class="section scroll-section">
         <div class="container">
             <div class="title">
                 About
@@ -12,7 +12,7 @@
             </p>
         </div>
     </div>
-    <div id="services-section" class="section">
+    <div id="services-section" class="section scroll-section">
         <div class="container">
             <div class="title">
                 Services
@@ -60,7 +60,7 @@
             </div>
         </div>
     </div>
-    <div id="members-section" class="section">
+    <div id="members-section" class="section scroll-section">
         <div class="container">
             <div class="title">
                 Members
