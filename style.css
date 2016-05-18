@@ -18,7 +18,8 @@ html, body{
 }
 
 body {
-    font-family: 'Lato Light', 'Ubuntu', sans-serif;
+    font-family: 'Lato', 'Ubuntu', sans-serif;
+    font-weight: 300;
 }
 
 a, a:hover, a:visited, a:active, a:link{
@@ -61,7 +62,7 @@ hr{
 }
 #header-menu a{
     padding: 0px 20px;
-    font-size: 1.5em;
+    text-transform: uppercase;
     color: #f0f0f0;
 }
 #header-menu a:hover{
@@ -93,12 +94,12 @@ hr{
     background-color: #f5f5f5;
     font-size: 1.2em;
 }
-#members-section{
-
+#services-section .title{
+    font-size: 3em;
 }
+
 .member{
     text-align: center;
-
     font-size: 0.9em;
 }
 .member img{
